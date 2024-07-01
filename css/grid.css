@@ -1,0 +1,48 @@
+body{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/134/539/702/2880x1800-world-usa-new-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.login{
+    width: 100%;
+    min-height: 450px;
+    background: rgba(99,146,176, 0.37);
+    float: left;
+    padding: 15px;
+    padding-top: 100px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 40px 14px lightblue;
+    
+}
+
+.register{
+    width: 100%;
+    min-height: 600px;
+    background: blue;
+    float: left;
+}
+
+.tColor{
+    color: white;
+}
+
+.main{
+    min-height: 600px;
+}
+
+.selector_operator{
+    height: 22px;
+    margin-right: -5px;
+    border: none;
+}
+
+/* .selector_operator:focus{
+    outline: none;
+} */
+
+input[type="number"], select{
+    outline: none;
+    color: blue;
+    border: none;
+}
